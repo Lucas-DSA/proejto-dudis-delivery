@@ -175,7 +175,8 @@ const message = encodeURIComponent(
 );
     const phone = "+5511958306342"
 
-    window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInpuit.value}`, "_blank")
+    window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
+
 
     cart = [];
     updateCartModal();
